@@ -5,6 +5,6 @@ from django.contrib import admin
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('com/', views.compliment, name="compliment"),
-    path('', views.Form_view, name="compliment"),
+    path('', views.compliment, name="compliment"),
+    path('form/', views.Form_view, name="compliment"),
 ]
